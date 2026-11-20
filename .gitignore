@@ -1,0 +1,5 @@
+node_modules/
+output/
+transcripts*.tar.gz
+.env
+*.keypair.json

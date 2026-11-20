@@ -1,0 +1,87 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="1200" viewBox="0 0 1200 1200">
+<defs>
+ <linearGradient id="sky" x2="0" y2="1"><stop stop-color="#26153e"/><stop offset=".55" stop-color="#dc527b"/><stop offset="1" stop-color="#ffa270"/></linearGradient>
+ <linearGradient id="water" x2="0" y2="1"><stop stop-color="#29364e"/><stop offset="1" stop-color="#0d1a29"/></linearGradient>
+ <linearGradient id="pink" x2="1" y2="1"><stop stop-color="#ff4ca8"/><stop offset="1" stop-color="#fb7459"/></linearGradient>
+ <pattern id="grid" width="35" height="35" patternUnits="userSpaceOnUse"><path d="M35 0H0V35" stroke="#8bd5dc" stroke-width="1" fill="none" opacity=".25"/></pattern>
+ <pattern id="dots" width="9" height="9" patternUnits="userSpaceOnUse"><circle cx="2" cy="2" r="1" fill="#000" opacity=".14"/></pattern>
+ <filter id="shadow" x="-25%" y="-25%" width="160%" height="160%"><feDropShadow dx="0" dy="10" stdDeviation="0" flood-color="#080b16" flood-opacity=".7"/></filter>
+ <g id="palm"><path d="M0 170Q8 90 0 0" fill="none" stroke="#17172c" stroke-width="15"/><path d="M0 2Q-58-46-93-6Q-38-20 0 2M0 2Q-62-9-83 45Q-38 12 0 2M0 2Q-5-63 39-68Q12-26 0 2M0 2Q49-58 93-25Q41-25 0 2M0 2Q64-20 89 35Q43 3 0 2" fill="#17172c"/></g>
+ <g id="spark"><path d="M0-19 6-6 19 0 6 6 0 19-6 6-19 0-6-6Z"/></g>
+</defs>
+<!-- Original vector cartoon: no extracted game art or competitor images. -->
+<rect width="1200" height="1200" fill="#10111c"/>
+<rect x="20" y="20" width="1160" height="1160" rx="8" fill="#f6efdb"/>
+<rect x="20" y="20" width="1160" height="280" fill="#f6efdb"/>
+<text x="66" y="75" fill="#bd315e" font-family="Arial, sans-serif" font-size="24" font-weight="900" letter-spacing="5">GTA VI · THE LEONIDA SIDE HUSTLE</text>
+<g font-family="Impact, Arial Black, sans-serif" font-size="93" fill="#151522" letter-spacing=".4">
+ <text x="60" y="169">13 YEARS PLANNING</text>
+ <text x="60" y="265">THE PERFECT HEIST.</text>
+</g>
+<!-- Sunset strip: deliberately graphic rather than a UI or fake document. -->
+<rect x="20" y="300" width="1160" height="604" fill="url(#sky)"/>
+<circle cx="900" cy="494" r="144" fill="#ffbd82"/>
+<path d="M750 482H1050M750 506H1050M750 535H1050M750 568H1050" stroke="#d55e83" stroke-width="11"/>
+<path d="M20 592H90V493H130V592H172V464H215V592H259V521H292V592H348V480H389V592H438V537H484V592H536V500H568V592H627V523H672V592H716V488H754V592H799V536H853V592H897V502H933V592H984V452H1024V592H1061V510H1102V592H1180V678H20Z" fill="#342244"/>
+<rect x="20" y="603" width="1160" height="301" fill="url(#water)"/>
+<path d="M21 643H1178M22 670H1178M20 706H1180M20 754H1180M20 823H1180" stroke="#586475" stroke-width="2" opacity=".32"/>
+<use href="#palm" transform="translate(96 459) scale(.95)"/>
+<use href="#palm" transform="translate(1114 445) scale(.9)"/>
+<!-- Human heist planning board. -->
+<g transform="translate(86 401) rotate(-5 195 150)" stroke-linejoin="round">
+ <rect x="0" y="0" width="380" height="290" rx="8" fill="#092a36" stroke="#09121f" stroke-width="9"/>
+ <rect x="10" y="10" width="360" height="270" fill="url(#grid)"/>
+ <text x="26" y="44" font-family="Arial, sans-serif" font-size="29" font-weight="900" fill="#c0f8eb">LEONIDA BANK</text>
+ <path d="M59 105 174 66 290 105ZM77 117H273V216H77ZM65 229H285M85 217V120M134 217V120M183 217V120M232 217V120M271 217V120" stroke="#9cd7db" stroke-width="5" fill="none"/>
+ <path d="M304 246Q357 152 304 116M310 121l-16-1 8 16" stroke="#fb5881" stroke-width="8" fill="none"/>
+ <text x="28" y="267" font-family="Arial, sans-serif" font-size="21" font-weight="700" fill="#fcb7cb">PLAN A: CRIME</text>
+</g>
+<!-- Worried original cartoon player, balaclava, duffel, no weapon. -->
+<g stroke="#121323" stroke-width="8" stroke-linecap="round" stroke-linejoin="round">
+ <path d="M229 813 210 893H287L305 818M329 813 357 893H418L390 788" fill="#2d314b"/>
+ <path d="M198 901H289M348 901H429" stroke-width="17"/>
+ <path d="M217 667Q264 637 329 657L395 791 326 844 220 826 182 742Z" fill="#e27977"/>
+ <path d="M225 693 185 739 136 706" fill="none" stroke="#e27977" stroke-width="39"/>
+ <path d="M224 693 184 739 136 706" fill="none" stroke-width="6"/>
+ <path d="M348 701 404 758 462 737" fill="none" stroke="#e27977" stroke-width="38"/>
+ <path d="M348 701 404 758 462 737" fill="none" stroke-width="6"/>
+ <path d="M241 649Q197 611 215 560Q230 514 279 522Q342 527 342 588L326 663Z" fill="#272b43"/>
+ <path d="M234 569Q278 549 321 578L316 603Q275 590 236 599Z" fill="#e9b58e" stroke-width="5"/>
+ <path d="M256 574l13 5M299 580l10-2" stroke-width="6"/>
+ <path d="M272 629h27" stroke="#e4ac91" stroke-width="6"/>
+ <path d="M149 709l-8-22" stroke="#f1bc98" stroke-width="18"/>
+ <path d="M459 737 479 724" stroke="#f1bc98" stroke-width="20"/>
+ <path d="M416 817Q455 793 501 814L529 884H401Z" fill="#283c38"/>
+ <path d="M443 815Q445 772 482 811" fill="none"/>
+</g>
+<text x="450" y="869" font-family="Arial, sans-serif" font-size="37" font-weight="900" fill="#b4c4a0">$0</text>
+<path d="M360 546l15-20M379 564l24-4" stroke="#ffe4ac" stroke-width="6" stroke-linecap="round"/>
+<!-- Ghost casually found the other route. -->
+<g filter="url(#shadow)">
+ <path d="M696 782Q665 745 690 707L720 672Q695 577 756 548Q807 515 859 551Q911 580 891 647L904 743Q936 778 902 809L884 790 859 813 835 790 810 811 787 788 760 808 741 784Z" fill="#fff7e8" stroke="#141422" stroke-width="9" stroke-linejoin="round"/>
+ <g fill="#151522"><use href="#spark" transform="translate(781 600)"/><use href="#spark" transform="translate(843 600)"/></g>
+ <path d="M802 634q13 13 25-1" fill="none" stroke="#151522" stroke-width="6" stroke-linecap="round"/>
+ <path d="M874 670Q932 660 927 700Q923 722 891 713" fill="#fff7e8" stroke="#151522" stroke-width="8"/>
+ <circle cx="928" cy="656" r="37" fill="#ef3295" stroke="#151522" stroke-width="7"/>
+ <path d="m928 632 7 16 18 2-13 13 4 18-16-10-16 10 4-18-13-13 18-2Z" fill="#fff9ec"/>
+</g>
+<!-- Laptop is part of the scene; brand at large readable scale. -->
+<g stroke="#111321" stroke-width="8" stroke-linejoin="round">
+ <path d="M696 726H1004L982 881H721Z" fill="#f03b91"/>
+ <path d="M680 887H1025L1050 908H650Z" fill="#dbe3df"/>
+</g>
+<text x="849" y="797" text-anchor="middle" font-family="Arial, sans-serif" font-size="52" font-weight="900" fill="#fffbed">make.fun</text>
+<text x="849" y="840" text-anchor="middle" font-family="Arial, sans-serif" font-size="25" font-weight="900" letter-spacing="2" fill="#29122b">PLAN B: BOUNTIES</text>
+<!-- Tiny dialogue, secondary to the headline, readable in 480px preview. -->
+<path d="M756 351H1090Q1110 351 1110 371V451Q1110 471 1090 471H909L876 502 874 471H756Q736 471 736 451V371Q736 351 756 351Z" fill="#fff3db" stroke="#161422" stroke-width="7"/>
+<text x="923" y="398" text-anchor="middle" font-family="Arial Black, Arial, sans-serif" font-size="33" font-weight="900" fill="#171522">BRO. TRY THE</text>
+<text x="923" y="441" text-anchor="middle" font-family="Arial Black, Arial, sans-serif" font-size="37" font-weight="900" fill="#bd315e">LEGAL ROUTE.</text>
+<rect x="20" y="300" width="1160" height="604" fill="url(#dots)" pointer-events="none"/>
+<!-- Bottom punchline, the largest single reading after the setup. -->
+<rect x="20" y="920" width="1160" height="260" fill="#f6efdb"/>
+<g font-family="Impact, Arial Black, sans-serif" font-size="91" fill="#151522" letter-spacing=".1">
+ <text x="60" y="1022">MY AI JUST</text>
+ <text x="60" y="1120">ENTERED A BOUNTY.</text>
+</g>
+<path d="M64 1142H1129" stroke="#ed4b86" stroke-width="9"/>
+</svg>

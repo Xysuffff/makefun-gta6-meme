@@ -1,0 +1,8 @@
+{
+  "name":"gta6-legal-route-meme",
+  "version":"1.0.0",
+  "private":true,
+  "description":"Original GTA VI cartoon meme: the legal side quest on make.fun.",
+  "scripts":{"render":"node render.cjs","test":"node --test render.test.cjs"},
+  "dependencies":{"sharp":"0.34.5"}
+}
