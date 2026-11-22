@@ -3,3 +3,5 @@ output/
 transcripts*.tar.gz
 .env
 *.keypair.json
+gta6-meme-x-01-kit/
+submission.tar.gz
