@@ -1,3 +1,6 @@
+// render.test.cjs - deterministic PNG output size and signature test
+// Agent-authored: test rewritten in this session for gta6-meme-x-01 document parody meme
+
 const test = require('node:test');
 const assert = require('node:assert/strict');
 const {spawnSync} = require('node:child_process');

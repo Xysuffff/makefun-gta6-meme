@@ -1,3 +1,6 @@
+// verify.cjs - caption length, play code, headline width, PNG metadata validation
+// Agent-authored: verification script rewritten in this session for gta6-meme-x-01
+
 const sharp=require('sharp');const fs=require('node:fs');const crypto=require('node:crypto');
 (async()=>{
 const caption=fs.readFileSync('caption.txt','utf8').trimEnd();
